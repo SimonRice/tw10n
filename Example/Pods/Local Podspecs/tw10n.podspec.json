@@ -1,0 +1,25 @@
+{
+  "name": "tw10n",
+  "version": "0.1.0",
+  "summary": "A short description of tw10n.",
+  "description": "An optional longer description of tw10n\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/tw10n",
+  "license": "MIT",
+  "authors": {
+    "Simon Rice": "im@simonrice.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/tw10n.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "tw10n": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

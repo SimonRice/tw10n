@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		ED9CCBF008B06E2D4B2E46D2 /* Pods_tw10n_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2BF71BC54C74660AE8CA193 /* Pods_tw10n_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F4278FB31B6C603E00394B36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4278FB51B6C603E00394B36 /* Localizable.strings */; };
+		F4278FC01B6C6FFD00394B36 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = F4278FBF1B6C6FFD00394B36 /* NSBundle+Language.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = tw10n_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* tw10n_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tw10n_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		617087DE5FCA288210153BD4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -46,6 +48,13 @@
 		E6125504D2CBE37DE2CC6CBA /* Pods-tw10n_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tw10n_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tw10n_Example/Pods-tw10n_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F0D323935CD498C5C196D6 /* tw10n.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = tw10n.podspec; path = ../tw10n.podspec; sourceTree = "<group>"; };
 		F2BF71BC54C74660AE8CA193 /* Pods_tw10n_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tw10n_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4278FB41B6C603E00394B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4278FB71B6C618100394B36 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4278FB81B6C61DA00394B36 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4278FB91B6C675200394B36 /* tw10n.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tw10n.framework; path = "Pods/../build/Debug-iphoneos/tw10n.framework"; sourceTree = "<group>"; };
+		F4278FBD1B6C6FFD00394B36 /* tw10n_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tw10n_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4278FBE1B6C6FFD00394B36 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		F4278FBF1B6C6FFD00394B36 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
 		FD5E74E66D8100BC8DA2B5BE /* Pods-tw10n_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tw10n_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tw10n_Tests/Pods-tw10n_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* tw10n_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* tw10n_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +119,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				F4278FB51B6C603E00394B36 /* Localizable.strings */,
 			);
 			name = "Example for tw10n";
 			path = tw10n;
@@ -126,8 +136,10 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				F4278FC11B6C748B00394B36 /* Extensions */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				F4278FBD1B6C6FFD00394B36 /* tw10n_Tests-Bridging-Header.h */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -153,10 +165,20 @@
 		8C29EC2EF975B8B47EAAF103 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F4278FB91B6C675200394B36 /* tw10n.framework */,
 				F2BF71BC54C74660AE8CA193 /* Pods_tw10n_Example.framework */,
 				51B928205FF1896533B5C7F1 /* Pods_tw10n_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4278FC11B6C748B00394B36 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F4278FBE1B6C6FFD00394B36 /* NSBundle+Language.h */,
+				F4278FBF1B6C6FFD00394B36 /* NSBundle+Language.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +222,7 @@
 			);
 			name = tw10n_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* tw10n_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -228,6 +250,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				es,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -246,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				F4278FB31B6C603E00394B36 /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -367,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4278FC01B6C6FFD00394B36 /* NSBundle+Language.m in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +422,16 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F4278FB51B6C603E00394B36 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4278FB41B6C603E00394B36 /* en */,
+				F4278FB71B6C618100394B36 /* fr */,
+				F4278FB81B6C61DA00394B36 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -487,6 +523,10 @@
 			baseConfigurationReference = E6125504D2CBE37DE2CC6CBA /* Pods-tw10n_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = tw10n/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -499,6 +539,10 @@
 			baseConfigurationReference = BAD6EF980F3ED0E8C3130BE3 /* Pods-tw10n_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = tw10n/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -511,6 +555,7 @@
 			baseConfigurationReference = 275991CFCF2F60920A891989 /* Pods-tw10n_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -522,6 +567,8 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/tw10n_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tw10n_Example.app/tw10n_Example";
 			};
 			name = Debug;
@@ -531,6 +578,7 @@
 			baseConfigurationReference = FD5E74E66D8100BC8DA2B5BE /* Pods-tw10n_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +586,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/tw10n_Tests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tw10n_Example.app/tw10n_Example";
 			};
 			name = Release;

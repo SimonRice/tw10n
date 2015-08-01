@@ -1,0 +1,6 @@
+framework module tw10n {
+  umbrella header "tw10n-umbrella.h"
+
+  export *
+  module * { export * }
+}
