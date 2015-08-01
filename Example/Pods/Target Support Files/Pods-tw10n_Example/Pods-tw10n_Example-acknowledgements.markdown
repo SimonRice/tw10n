@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## tw10n
 
-Copyright (c) 2015 Simon Rice <im@simonrice.com>
+Copyright (c) 2015 Simon Rice
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
