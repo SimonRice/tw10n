@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/tw10n.svg?style=flat)](http://cocoapods.org/pods/tw10n)
 [![Platform](https://img.shields.io/cocoapods/p/tw10n.svg?style=flat)](http://cocoapods.org/pods/tw10n)
 
-This is a localisation library written in Swift.  The library itself (found in `Pod/Classes/tw10n.swift`) is less than 140 characters, and so can fit in a Tweet!
+This is a localisation library written in Swift.  The library itself (found in `Pod/Classes/tw10n.swift`) is less than 140 characters, and so [it can fit in a Tweet!](https://twitter.com/_SimonRice/status/627368367268171776)
 
 I have used a very similar implementation in production apps, so you are welcome to use this library.  However, you are also equally welcome to base a more heavyweight localisation implementation on tw10n.
 
@@ -30,7 +30,7 @@ pod "tw10n"
 
 tw10n is also available via Carthage if you prefer it to CocoaPods.
 
-Alternatively, you can even just copy `Pod/Classes/tw10n.swift` to your project.
+Alternatively, you can even just copy `Pod/Classes/tw10n.swift` to your project, or include it as a submodule - this is especially handy if you wish to target iOS7, which doesn't support dynamic frameworks.
 
 ## Contributions
 
