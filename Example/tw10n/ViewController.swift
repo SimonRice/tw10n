@@ -9,6 +9,7 @@
 import tw10n
 import UIKit
 
+/// This view controller shows (in a UILabel) and logs the relevant localised string for "Hello World"
 class ViewController: UIViewController {
     @IBOutlet weak var translationLabel: UILabel! {
         didSet {
@@ -18,6 +19,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        NSLog("HELLO_WORLD".l10n)
+        println("HELLO_WORLD".l10n)
     }
 }

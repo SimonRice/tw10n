@@ -16,7 +16,7 @@ There are also a couple of tests, implemented with the help of [this answer on S
 Assuming an entry `MY_TRANSLATABLE_STRING` in your `Localizable.strings` file(s), this code will log its localised string:
 
 ```swift
-NSLog("MY_TRANSLATABLE_STRING".l10n)
+println("MY_TRANSLATABLE_STRING".l10n)
 ```
 
 ## Installation
@@ -34,12 +34,22 @@ Alternatively, you can even just copy `Pod/Classes/tw10n.swift` to your project,
 
 ## Contributions
 
-Feel free to chip in with any improvements.  However, I will only accept pull requests if `tw10n.swift` still fits in a Tweet (this excludes comments and excess whitespace).
+Feel free to chip in with any improvements.  However, I will only accept pull requests if `tw10n.swift` itself still fits in a Tweet (this excludes comments, documentation and excess whitespace).
+
+## (Not Very) Frequently Asked Questions
+
+### How do you pronounce "tw10n"?
+
+I personally pronounce it as "twittilisation", but I didn't have that in mind when I named this library.
+
+### You're spelling 'localization' wrong!
+
+That technically isn't a question - being from the British side of the pond, I am spelling 'localisation' correctly for me & my fellow countrymen 🇬🇧.
+
+### This seems too easy!  Is there really any reason why I shouldn't localise my app?
+
+No.
 
 ## License
 
 tw10n is available under the MIT license. See the LICENSE file for more info.
-
-## You're spelling 'localization' wrong!
-
-Sorry, but being from the British side of the pond, my documentation is in en_GB and I'm spelling 'localisation' correctly 🇬🇧.

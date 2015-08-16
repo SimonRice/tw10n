@@ -55,6 +55,13 @@
 		F4278FBD1B6C6FFD00394B36 /* tw10n_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tw10n_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4278FBE1B6C6FFD00394B36 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
 		F4278FBF1B6C6FFD00394B36 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		F4DCA71C1B8074AF007C273A /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DCA71D1B807762007C273A /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DCA71E1B8077CB007C273A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DCA71F1B8079E8007C273A /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DCA7201B807A54007C273A /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DCA7211B807B11007C273A /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F4DCA7221B807B70007C273A /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FD5E74E66D8100BC8DA2B5BE /* Pods-tw10n_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tw10n_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tw10n_Tests/Pods-tw10n_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,6 +259,13 @@
 				Base,
 				fr,
 				es,
+				hi,
+				it,
+				de,
+				pt,
+				el,
+				nl,
+				da,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -430,6 +444,13 @@
 				F4278FB41B6C603E00394B36 /* en */,
 				F4278FB71B6C618100394B36 /* fr */,
 				F4278FB81B6C61DA00394B36 /* es */,
+				F4DCA71C1B8074AF007C273A /* hi */,
+				F4DCA71D1B807762007C273A /* it */,
+				F4DCA71E1B8077CB007C273A /* de */,
+				F4DCA71F1B8079E8007C273A /* pt */,
+				F4DCA7201B807A54007C273A /* el */,
+				F4DCA7211B807B11007C273A /* nl */,
+				F4DCA7221B807B70007C273A /* da */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
