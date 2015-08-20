@@ -16,6 +16,16 @@ class Tw10nSpec: QuickSpec {
                     expect("HELLO_WORLD".l10n) == "Hello, World!"
                 }
             }
+
+            context("when set to Welsh") {
+                beforeEach({ () -> Void in
+                    NSBundle.setLanguage("cy")
+                })
+                
+                it("says 'Helo byd!'") {
+                    expect("HELLO_WORLD".l10n) == "Helo byd!"
+                }
+            }
             
             context("when set to French") {
                 beforeEach({ () -> Void in

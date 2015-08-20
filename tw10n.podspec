@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'tw10n'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'A localisation library in a tweet.'
   s.homepage         = 'https://twitter.com/_SimonRice/status/627368367268171776'
   s.license          = 'MIT'

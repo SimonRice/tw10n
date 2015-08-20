@@ -48,6 +48,7 @@
 		E6125504D2CBE37DE2CC6CBA /* Pods-tw10n_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tw10n_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tw10n_Example/Pods-tw10n_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E8F0D323935CD498C5C196D6 /* tw10n.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = tw10n.podspec; path = ../tw10n.podspec; sourceTree = "<group>"; };
 		F2BF71BC54C74660AE8CA193 /* Pods_tw10n_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tw10n_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41BCA651B85FA5E002C9FE8 /* cy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cy; path = cy.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4278FB41B6C603E00394B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4278FB71B6C618100394B36 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F4278FB81B6C61DA00394B36 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -266,6 +267,7 @@
 				el,
 				nl,
 				da,
+				cy,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -451,6 +453,7 @@
 				F4DCA7201B807A54007C273A /* el */,
 				F4DCA7211B807B11007C273A /* nl */,
 				F4DCA7221B807B70007C273A /* da */,
+				F41BCA651B85FA5E002C9FE8 /* cy */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
