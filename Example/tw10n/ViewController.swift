@@ -13,12 +13,12 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var translationLabel: UILabel! {
         didSet {
-            self.translationLabel.text = "HELLO_WORLD".l10n
+            self.translationLabel.text = "HELLO_WORLD".tr
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("HELLO_WORLD".l10n)
+        println("HELLO_WORLD".tr)
     }
 }
