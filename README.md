@@ -7,7 +7,7 @@
 
 This is a localisation library written in Swift.  The library itself (found in `Pod/Classes/tw10n.swift`) is less than 140 characters, and so [it can fit in a Tweet!](https://twitter.com/_SimonRice/status/627368367268171776)
 
-I have used a very similar implementation in production apps, so you are welcome to use this library.  However, you are also equally welcome to base a more heavyweight localisation implementation on tw10n.
+I have used a very similar implementation in production apps, so you are welcome to use this library.  However, you are also equally welcome to base a more heavyweight localisation implementation on tw10n - my top pick would be [R.swift](https://github.com/mac-cain13/R.swift), which is a code generator that strongly types a load of other tidbits in Swift (segues, reuse identifiers, etc).
 
 There are also a couple of tests, implemented with the help of [this answer on StackOverflow](http://stackoverflow.com/a/20257557), which allows languages to be quickly switched.  A small example project has also been thrown in.
 
